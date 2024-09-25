@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#pets">Available Pets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Adopt a Pet, Change a Life!</h1>
+            <p>Find your furry friend today!</p>
+        </div>
+    </section>
+
+    <section id="about" class="color-section">
+        <h2>About Us</h2>
+        <p>We are passionate about connecting loving pets with caring families. Join us in making a difference!</p>
+    </section>
+
+    <section id="pets" class="color-section">
+        <h2>Available Pets</h2>
+        <div class="pet-list">
+            <div class="pet-card">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/kw2fki80/poster/d/u/7/medium-hd-golden-retriever-puppy-running-labrador-cute-dog-pets-original-imag8ttnkw7jmgzp.jpeg?q=90&crop=false" alt="Buddy">
+                <h3>Buddy</h3>
+                <p>Breed: Golden Retriever</p>
+                <p>Age: 3 years</p>
+            </div>
+            <div class="pet-card">
+                <img src="https://img.freepik.com/free-photo/view-adorable-persian-domestic-cat_23-2151773881.jpg" alt="Luna">
+                <h3>Luna</h3>
+                <p>Breed: Labrador</p>
+                <p>Age: 2 years</p>
+            </div>
+            <div class="pet-card">
+                <img src="https://i.pinimg.com/736x/b8/25/e1/b825e1484a21bb183466a3890df21c39.jpg" alt="Luna">
+                <h3>Luna</h3>
+                <p>Breed: Labrador</p>
+                <p>Age: 2 years</p>
+            </div>
+            <!-- Add more pet cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="color-section">
+        <h2>Contact Us</h2>
+        <p>Email: info@petadoption.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Register</h2>
+            <form id="registrationForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
